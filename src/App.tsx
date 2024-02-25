@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 function App() {
-  const title: string = "Hello World!";
+  const title: string = "ボタン遷移できるよ！";
 
   return (
     <div className="App">
