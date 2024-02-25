@@ -1,9 +1,17 @@
+import { Link } from "react-router-dom";
+
 function App() {
+  const title: string = "Hello World!";
+
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <h1>{title}</h1>
+      <Link to='/test'>
+        ボタン
+      </Link>
     </div>
   );
 }
 
 export default App;
+
